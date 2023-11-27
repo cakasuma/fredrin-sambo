@@ -5,6 +5,7 @@ const generalRoute = require('./src/route/general-route')
 const authenticationRoute = require('./src/route/authentication-route')
 const testRoute = require('./src/route/test-route')
 
+// cara otomoatis routing in different file
 app.use('/', generalRoute)
 app.use('/auth', authenticationRoute)
 
